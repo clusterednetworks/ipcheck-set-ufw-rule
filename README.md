@@ -17,12 +17,15 @@ wget https://raw.githubusercontent.com/clusterednetworks/backup-www/master/ipche
 
 4. Make the script executable
 
-<code>chmod +x backup-www.sh</code>
+```
+chmod +x ipchek_set_ufw_rule.sh
+```
 
 6. Run the script.
 
-<code>./ipcheck_set_ufw_rule.sh [your dynamic dns a record] 22 tcp</code>
-
+```
+./ipcheck_set_ufw_rule.sh [change to your dynamic dns record] 22 tcp</code>
+```
 e.g ./ipcheck_set_ufw_rule.sh server01.duckdns.com 22 tcp
 
 e.g 2 ./ipcheck_set_ufw_rule.sh server01.duckdns.com 8443 tcp
