@@ -13,6 +13,12 @@ Shell script to update your UFW Rule to allow port 22 (SSH) from your Home Dynam
 
 <code>wget https://raw.githubusercontent.com/clusterednetworks/backup-www/master/ipchek_set_ufw_rule.sh</code>
 
+```
+function test() {
+  console.log("This code will have a copy button to the right of it");
+}
+
+
 4. Make the script executable
 
 <code>chmod +x backup-www.sh</code>
