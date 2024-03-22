@@ -1,5 +1,5 @@
 # ipcheck-set-ufw-rule
-Shell script to update your UFW Rule to allow port 22 (SSH) from your Home Dynamic IP Address.
+Shell script to update your UFW Firewall Rule to allow port 22 (SSH) (or other ports) with your Home Dynamic IP Address.
 
 # Usage:
 
