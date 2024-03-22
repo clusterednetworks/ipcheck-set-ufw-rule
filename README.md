@@ -24,7 +24,7 @@ chmod +x ipcheck_set_ufw_rule.sh
 6. Run the script.
 
 ```
-./ipcheck_set_ufw_rule.sh [change to your dynamic dns record] 22 tcp</code>
+./ipcheck_set_ufw_rule.sh [change to your dynamic dns record] 22 tcp
 ```
 e.g ./ipcheck_set_ufw_rule.sh server01.duckdns.com 22 tcp
 
