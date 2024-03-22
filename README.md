@@ -25,6 +25,6 @@ e.g ./ipcheck_set_ufw_rule.sh server01.duckdns.com 22 tcp
 
 7. Setup a cronjob to run the script every 5 min if you choose.
 <pre>
-*/5 * * * * /etc/ipcheck_set_ufw_rule.sh [your dynamic dns a record] >/dev/null 2>&1
+*/5 * * * * /etc/ipcheck_set_ufw_rule.sh [your dynamic dns a record] tcp 22 >/dev/null 2>&1
 </pre>
 
