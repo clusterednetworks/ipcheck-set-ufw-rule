@@ -23,6 +23,8 @@ Shell script to update your UFW Rule to allow port 22 (SSH) from your Home Dynam
 
 e.g ./ipcheck_set_ufw_rule.sh server01.duckdns.com 22 tcp
 
+e.g 2 ./ipcheck_set_ufw_rule.sh server01.duckdns.com 8443 tcp
+
 7. Setup a cronjob to run the script every 5 min if you choose.
 <pre>
 */5 * * * * /etc/ipcheck_set_ufw_rule.sh [your dynamic dns a record] tcp 22 >/dev/null 2>&1
