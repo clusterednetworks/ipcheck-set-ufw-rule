@@ -12,13 +12,13 @@ Shell script to update your UFW Rule to allow port 22 (SSH) from your Home Dynam
 3. Download the installer script.
 
 ```
-wget https://raw.githubusercontent.com/clusterednetworks/backup-www/master/ipchek_set_ufw_rule.sh
+wget https://raw.githubusercontent.com/clusterednetworks/backup-www/master/ipcheck_set_ufw_rule.sh
 ```
 
 4. Make the script executable
 
 ```
-chmod +x ipchek_set_ufw_rule.sh
+chmod +x ipcheck_set_ufw_rule.sh
 ```
 
 6. Run the script.
